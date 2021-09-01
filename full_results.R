@@ -255,6 +255,3 @@ abline(lm(unlist(ks_mod2_train) ~ len_train)$coef, col='Blue3')
 plot(len_train, unlist(ks_full_train), ylim=c(0,0.5), pch=19, cex=.25, 
      xlab='Number of observations', ylab='KS scores',col='Green4', main='Full model')
 abline(lm(unlist(ks_full_train) ~ len_train)$coef, col='Green4')
-
-### Must be repeated also for the test set
-
