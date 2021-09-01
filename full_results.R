@@ -257,3 +257,4 @@ plot(len_train, unlist(ks_full_train), ylim=c(0,0.5), pch=19, cex=.25,
 abline(lm(unlist(ks_full_train) ~ len_train)$coef, col='Green4')
 
 ### Must be repeated also for the test set
+
